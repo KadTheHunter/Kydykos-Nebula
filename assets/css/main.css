@@ -154,6 +154,12 @@ input, select, textarea {
 			color: #00ff00 !important;
 		}
 
+		a:link {
+			color: #008000;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
 	strong, b {
 		font-weight: 900;
 	}
