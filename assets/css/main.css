@@ -205,8 +205,7 @@ input, select, textarea {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
-		text-transform: uppercase;
-		letter-spacing: 0.35em;
+		letter-spacing: 0.02em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -214,7 +213,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 
 	h3 {
