@@ -160,6 +160,12 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+		a:visited {
+			color: #008000;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
 	strong, b {
 		font-weight: 900;
 	}
