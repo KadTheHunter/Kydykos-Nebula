@@ -52,10 +52,16 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Map</h1>
+							<h1>NBT</h1>
 							<p>Page WIP</p>
-							<p>More coming soon.</p>
-							<p>:)</p>
+							<hr />
+							<h2>Known Issues</h2>
+							<p>Below is a list of known Errors and Issues, with potential solutions.</p>
+							<dl>
+								<dt>oshi.architecture.properties</dt>
+								<dd>- If you see <code>Configuration conflict: there is more than one oshi.architecture.properties file on the classpath</code> then you've likely attempted to load something with NBT, and Fabric proceeded to shit itself.</dd>
+								<dd>Not much more is known about this error, but it is solvable by using Forge to load the NBT, and then copying the world save back into your Fabric instance. I think we've found the one thing Forge is useful for boys...</dd>
+							</dl>
 						</div>
 					</div>
 
